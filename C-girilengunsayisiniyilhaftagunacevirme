@@ -1,0 +1,16 @@
+//**Girilen gün sayısını yıl,hafta,güne çevirerek yazma**//
+#include<stdio.h>
+
+ int main()
+ {
+    int gun, hafta, yil;
+    printf("Toplam Gün Girin: ");   
+    scanf("%d", &gun);
+    yil = (gun / 365);
+    hafta = (gun % 365) / 7;
+    gun  = gun - ((yil * 365) + (hafta * 7));
+    printf("Yıl: %d\n", yil);
+    printf("Hafta: %d\n", hafta);
+    printf("Gün: %d", gun);
+    
+ }
