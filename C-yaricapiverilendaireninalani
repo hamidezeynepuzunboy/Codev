@@ -1,0 +1,16 @@
+//**Yarıçapı verilen dairenin alanı**//
+#include <stdio.h>
+int main()
+{
+   int daire_yaricap;
+   float Pi=3.14, daire_alan ;
+ 
+   printf("\nDairenin yari capini girin: ");
+   scanf("%d",&daire_yaricap);
+ 
+   daire_alan = Pi * daire_yaricap * daire_yaricap;
+   printf("\nDairenin alani: %f",daire_alan);
+ 
+   
+   return(0);
+}
