@@ -1,0 +1,16 @@
+//** Fiyat ve kdv oranı bilinen ürünün toplam fiyatı**//
+#include <stdio.h>
+ 
+main()
+{
+    int fiyat,kdvorani,kdvlifiyat;
+    
+    printf("Urunun kdv'siz fiyatini giriniz: ");
+    scanf("%d",&fiyat);
+    printf("KDV oranini giriniz,( ornegin %10 ise 10 yazin)");
+    scanf("%d",&kdvorani);
+    
+    kdvlifiyat = fiyat + (fiyat * kdvorani / 100);
+    
+    printf("Yeni kdvli fiyat = %d",kdvlifiyat);
+}
