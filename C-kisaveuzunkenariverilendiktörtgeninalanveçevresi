@@ -1,0 +1,21 @@
+//**Kısa ve uzun kenarı verilen diktörtgenin çevresi ve alanını bulma**//
+#include<stdio.h>
+
+ int main()
+ {
+ 	
+ 	int uzunkenar, kisakenar, alan, cevre;
+ 
+    printf("Uzun kenar: ");
+    scanf("%d", &uzunkenar);
+ 
+    printf("Kısa kenar : ");
+    scanf("%d", &kisakenar);
+ 
+    alan = uzunkenar * kisakenar;
+    printf("\nAlan : %d", alan);
+    
+    cevre = (uzunkenar + kisakenar)*2;
+    printf("\nÇevre : %d", cevre);
+    
+ }
