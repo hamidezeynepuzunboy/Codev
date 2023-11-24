@@ -1,0 +1,19 @@
+//**Kare alma**//
+#include <stdio.h>
+
+int main()
+{
+
+    int karealma,Sayı;
+
+     printf("Lütfen sayınızı giriniz:\n");
+     scanf("%d",&Sayı);
+     
+     karealma=Sayı*Sayı;
+     
+     printf("Girdiğiniz sayının karesi: %d",karealma);
+
+return 0;
+
+
+}   
