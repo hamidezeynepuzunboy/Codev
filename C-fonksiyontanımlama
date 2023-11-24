@@ -1,0 +1,17 @@
+//** y=3x^2 fonk. tanımlama**//
+#include<stdio.h>
+
+int main()
+{
+	  
+    int x,y ;
+    printf("x:");
+    scanf("%d",&x);
+    
+	y = 3*(x*x);
+	
+    printf("\n\n y: %d",y);
+    
+    return 0;
+
+}
