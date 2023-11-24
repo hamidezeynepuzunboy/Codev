@@ -1,0 +1,19 @@
+//**Girilen sayının çarpımını ve toplamını bulma**//
+#include <stdio.h>
+
+int main()
+{
+    int sayi1,sayi2,toplam,carpim;
+    printf("Birici sayi :");
+    scanf("%d",&sayi1);
+    printf("ikinci sayi :");
+    scanf("%d",&sayi2);
+
+    toplam=sayi1+sayi2;
+    carpim=sayi1*sayi2;
+    
+    printf("\n\nToplam: %d",toplam);
+    printf("\n\nÇarpım: %d",carpim);
+    
+    return 0;
+}
