@@ -1,0 +1,26 @@
+//**Girilen 3 sayının en küçüğünü bulma**//
+#include <stdio.h>
+ 
+int main()
+{
+    int sayi1,sayi2,sayi3;
+    int enkucuk;
+    
+    printf("1.Sayiyi giriniz: ");
+    scanf("%d",&sayi1);
+    printf("2.Sayiyi giriniz: ");
+    scanf("%d",&sayi2);
+    printf("3.Sayiyi giriniz: ");
+    scanf("%d",&sayi3);
+    
+    enkucuk = sayi1;
+    
+    if(sayi2 < enkucuk){
+        enkucuk = sayi2;
+    }
+    if(sayi3 < enkucuk){
+        enkucuk = sayi3;
+    }
+    printf("En en kucuk sayi %d dir",enkucuk);
+    
+}
