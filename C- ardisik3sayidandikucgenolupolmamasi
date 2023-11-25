@@ -1,0 +1,27 @@
+//* Ardışık 3 sayıdan dik üçgen oluşur mu?*//
+#include <stdio.h>
+ 
+int main()
+{
+  int ilksayi,b,c,ilksayikaresi, bkaresi, ckaresi;
+ 
+  
+  printf("Ardışık 3 sayıdan en küçüğünü giriniz:");
+  scanf("%d",&ilksayi);
+  
+ilksayikaresi=ilksayi*ilksayi;
+  c=(ilksayi+1);
+  b=(ilksayi+2);
+  ckaresi=c*c;
+  bkaresi=b*b;
+  
+  
+  if (bkaresi== ilksayikaresi+ckaresi)
+  {printf("Dik üçgen oluşur.");
+  }
+  
+  else{
+      printf("Dik üçgen oluşmaz.");
+  }
+  
+}
