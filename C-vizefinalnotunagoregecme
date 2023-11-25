@@ -1,0 +1,27 @@
+//** Vize ve final notuna göre geçme durumunu hesaplama**//
+
+#include <stdio.h>
+ 
+int main()
+{
+    int vize;
+    int final;
+    double notu;
+    
+    printf("Vize notunu giriniz: ");
+    scanf("%d",&vize);
+    printf("Final notunu giriniz: ");
+    scanf("%d",&final);
+    
+    notu = (vize * 0.4) + (final * 0.6);
+    
+    printf("Yıl sonu notu = %f\n",notu);
+    
+    if(notu > 55){
+        printf(" Dersi gectiniz.");
+    }
+    
+    else{
+        printf("Dersten kaldiniz..");
+    }
+}
