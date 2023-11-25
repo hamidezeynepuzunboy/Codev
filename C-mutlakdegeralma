@@ -1,0 +1,17 @@
+//**Mutlak değer alma**//
+
+#include<stdio.h>
+ 
+int main() {
+    int sayi;
+    printf("Mutlak degeri hesaplanacak sayi giriniz: ");
+    scanf("%d", &sayi);
+ 
+    if (sayi >= 0) {
+        printf("%d", sayi);
+     } else {
+        printf(" Mutlak degeri = %d ", (-sayi));
+    }
+ 
+    return 0;
+}
