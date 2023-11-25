@@ -1,0 +1,20 @@
+//** Girilen sayının pozitifliği ya da negatifliğini belirtme**//
+
+#include <stdio.h>
+int main()
+{
+    double sayi;
+
+    printf("bir sayı giriniz: ");
+    scanf("%lf", &sayi);
+
+    if (sayi < 0.0)
+        printf("Negatif bir sayı girdiniz.");
+
+    else if ( sayi > 0.0)
+        printf("Pozitif bir sayı girdiniz.");
+
+    else
+        printf("girdiğiniz sayı 0.");
+    return 0;
+}
